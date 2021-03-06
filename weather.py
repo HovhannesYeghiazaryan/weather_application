@@ -1,8 +1,6 @@
 #!/usr/bin/python
 import requests
 
-# Batays latitude = 47.1667 longitude = 39.7333
-
 
 def constructing_city_url(lat, lon, temp_indicator_unit="default", lang="us"):
     """
